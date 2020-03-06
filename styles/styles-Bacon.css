@@ -135,7 +135,7 @@ body {
     background-color: #33A8DD;
     color: #ffffff;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .article-2 {
@@ -195,7 +195,7 @@ i {
         grid-area: main-content;
         background: #1B1B1B;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: "left-article middle-article right-article";
     }
 
